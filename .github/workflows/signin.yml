@@ -17,8 +17,8 @@ jobs:
           PUSH_TYPES: 'telegram'
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.5375160180:AAH0oRGGgyNnXfuXni5Z9yibk1Trw8AhCco }}
-          TELEGRAM_CHAT_ID: ${{ secrets.1079133796 }}
+          TELEGRAM_BOT_TOKEN: '5375160180:AAH0oRGGgyNnXfuXni5Z9yibk1Trw8AhCco'
+          TELEGRAM_CHAT_ID: '1079133796'
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
